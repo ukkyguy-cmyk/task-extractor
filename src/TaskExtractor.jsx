@@ -1,9 +1,9 @@
-import { useState } from "react”;
+import { useState } from "react";
 
 const PROJECTS = [
 “PUBLIC MENTOR LAB サイト制作”,
 “スケートパーク管理システム”,
-“Slack自動化（Make+Gemini）”,
+“Slack自動化（Make+Gemini）",
 “その他”,
 ];
 
@@ -11,10 +11,10 @@ const STATUS_OPTIONS = [“未着手”, “進行中”, “完了”, “ブ�
 const PRIORITY_OPTIONS = [“高”, “中”, “低”];
 
 const STATUS_COLORS = {
-“未着手”: “#6b7280”,
-“進行中”: “#3b82f6”,
-“完了”: “#10b981”,
-“ブロック中”: “#ef4444”,
+“未着手”: "#6b7280”,
+“進行中": "#3b82f6",
+“完了”: "#10b981”,
+“ブロック中”: "#ef4444”,
 };
 
 const PRIORITY_COLORS = {
